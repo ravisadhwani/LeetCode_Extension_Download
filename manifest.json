@@ -1,0 +1,25 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "Leetcode to Github Plugin",
+  "description": "This extension will fetch the submitted code and send to commit script for upload to github",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_popup": "popup.html",
+   "default_icon": "icon.png"
+  },
+  // "content_scripts" : [
+  //   {
+  //     "matches":["<all_urls>"],
+  //     "js": ["content.js"]
+  //   }
+  // ],
+  // "background" : {
+  //   "scripts" : ["background.js"]
+  // },
+  "permissions": [
+   "activeTab", "tabs"
+   ]
+}
